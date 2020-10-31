@@ -31,8 +31,8 @@ print(len(Y))
 clf.fit(X, Y)
 print(kaiki)
 # 偏回帰係数
-print(pd.DataFrame({"Name":kaiki.columns.values,
-                    "Coefficients":clf.coef_}).sort_values(by='Coefficients') )
+#print(pd.DataFrame({"Name":kaiki.columns.values,
+                   # "Coefficients":clf.coef_}).sort_values(by='Coefficients') )
  
 # 切片 (誤差)
 print(clf.intercept_)
